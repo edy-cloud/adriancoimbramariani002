@@ -1,0 +1,39 @@
+body{
+  background: #131517;
+   background-repeat: no-repeat;
+  background-size: cover;
+  font-family: impact;
+ }
+
+.site-title {
+  text-align: center;
+  color: teal;
+}
+
+.site-subtitle {
+  text-align: center;
+  color: orange;
+  font-style: italic;
+}
+
+.menu {
+  background-color: #62656b;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-around; 
+}
+
+.menu li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: red;
+}
